@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: auto;
+    padding-bottom: 25px;
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: 2px solid hsl(245, 75%, 52%);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.order-sum{
+    width: 350px;
+    height: 180px;
+
+}
+
+h2, p{
+    text-align: center;
+}
+h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.details{
+    width: 280px;
+    margin: auto;
+}
+
+.music-logo{
+    width: 35px;
+    height: 35px;
+    margin: auto 10px;
+}
+
+.pricing{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: -35px;
+    padding: 3px;
+}
+
+.change{
+    float: right;
+    margin: auto;
+    margin-right: 18px;
+    color: blueviolet;
+    font-size: 15px;
+}
+
+button{
+    padding: 10px;
+    margin: 25px auto;
+    width: 280px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cancel {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: hsl(244, 23%, 55%);
+}
+
+@media (min-width: 1440px) {
+  .card {
+    border-radius: 24px;
+    box-shadow: 0 30px 60px hsla(225, 30%, 50%, 0.15);
+  }
+  .card__body { padding: 2.5rem; }
+}
